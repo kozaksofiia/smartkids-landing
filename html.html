@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>Чарівний світ казок</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Чарівний світ казок</h1>
+        <p>Світ цікавих історій та пригод</p>
+    </header>
+
+    <nav class="navigation">
+        <a href="#home">Головна</a>
+        <a href="#video">Відео</a>
+        <a href="#audio">Аудіоказка</a>
+        <a href="#stories">Ілюстрації</a>
+    </nav>
+
+    <main id="home">
+
+        <section class="welcome">
+            <h2>Ласкаво просимо до світу казок!</h2>
+            <p>
+                Тут ти зможеш переглянути цікаве відео,
+                послухати казку перед сном та познайомитися
+                з чарівними історіями.
+            </p>
+        </section>
+
+        <section class="media-section" id="video">
+            <h2>Анімована казка</h2>
+
+            <div class="video-container">
+                <iframe
+                    src="https://www.youtube.com/embed/iXK12SZWkO8?si=jhunqOKWQARD2_Dj"
+                    title="Анімована казка"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section class="media-section" id="audio">
+            <h2>Казка для прослуховування</h2>
+            <p>Влаштовуйся зручно та слухай цікаву історію.</p>
+
+            <audio controls>
+                <source src="0112.mp3" type="audio/mpeg">
+                Ваш браузер не підтримує відтворення аудіо.
+            </audio>
+        </section>
+
+        <section class="stories-section" id="stories">
+            <h2>Світ чарівних історій</h2>
+
+            <div class="stories-grid">
+
+                <div class="story-card story-one">
+                    <h3>Зачарований ліс</h3>
+                    <p>Місце, де живуть казкові істоти та відбуваються дива.</p>
+                </div>
+
+                <div class="story-card story-two">
+                    <h3>Зоряна мандрівка</h3>
+                    <p>Неймовірна подорож серед зірок та далеких планет.</p>
+                </div>
+
+                <div class="story-card story-three">
+                    <h3>Королівство мрій</h3>
+                    <p>Чарівне королівство, де здійснюються найзаповітніші мрії.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Чарівний світ казок</p>
+    </footer>
+
+</body>
+</html>
